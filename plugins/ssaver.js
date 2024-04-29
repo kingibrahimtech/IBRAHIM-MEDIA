@@ -104,11 +104,13 @@ global.waPresence = process.env.WAPRESENCE && process.env.WAPRESENCE === "online
 // global.readmessage = process.env.READ_MESSAGE || global.readmessage || "false"; 
 // global.readmessagefrom = process.env.READ_MESSAGE_FROM || global.readmessagefrom || "false"; 
 // global.readcmds = process.env.READ_COMMAND || global.readcmds || "true" 
-global.YT_PROMOTE = "_https://youtube.com/SuhailTechInfo_ \n*FOLLOW ME:* _tiktok.com/@itx.suhail.0_" // PAID PROMOTION TO GET YOUTUBE SUBSCRIBERS
+global.YT_PROMOTE = "_https://youtube.com/ibrahimaitech_ \n*FOLLOW ME:* _https://www.instagram.com/ibrahim_tech_official_" // PAID PROMOTION TO GET YOUTUBE SUBSCRIBERS
 
 global.api_smd = "https://api-smd.onrender.com" //"https://api-smd-1.vercel.app" EXPIRED VERCEL
-global.gurl  = process.env.GURL  || "https://whatsapp.com/channel/0029VadHtwWFCCoaogdKsh0B";
-global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://github.com/SuhailTechInfo/Suhail-Md/blob/main/lib/assets/suhail.jpg?raw=true" ; // SET LOGO FOR IMAGE 
+global.gurl  = process.env.GURL  || "https://whatsapp.com/channel/0029VaZuGSxEawdxZK9CzM0Y
+
+Share my channel";
+global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://telegra.ph/file/db3a5c86c0e3dd11e0071.mp4" ; // SET LOGO FOR IMAGE 
 
 
 
@@ -199,7 +201,7 @@ smd(
 smd(
    {
       cmdname: "smd",         
-      desc: "total Users Currently using suhail MD",
+      desc: "total Users Currently using IBRAHIM MD",
    },
    async(message,text) => {
       try{
@@ -217,7 +219,7 @@ smd(
 
 
          let { data } = await axios.get(`${api_smd}/bot/getUser?id=bizode`)
-         if(data && data.success) return await message.reply(`*Currently "${data.total || data.length || "-INFINITY-"}" Users have Suhail MD!*`.trim())
+         if(data && data.success) return await message.reply(`*Currently "${data.total || data.length || "-INFINITY-"}" Users have IBRAHIM MD!*`.trim())
          else message.reply(`*No Data FOUNd!* `)
       }catch (e) {
          console.error("Error:", e);
