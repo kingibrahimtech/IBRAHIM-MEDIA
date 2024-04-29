@@ -106,7 +106,7 @@ global.waPresence = process.env.WAPRESENCE && process.env.WAPRESENCE === "online
 // global.readcmds = process.env.READ_COMMAND || global.readcmds || "true" 
 global.YT_PROMOTE = "_https://youtube.com/ibrahimaitech_ \n*FOLLOW ME:* _https://www.instagram.com/ibrahim_tech_official_" // PAID PROMOTION TO GET YOUTUBE SUBSCRIBERS
 
-global.api_smd = "https://api-smd.onrender.com" //"https://api-smd-1.vercel.app" EXPIRED VERCEL
+global.api_smd = "https://api-smd-1.vercel.app" //"https://api-smd-1.vercel.app" EXPIRED VERCEL
 global.gurl  = process.env.GURL  || "https://whatsapp.com/channel/0029VaZuGSxEawdxZK9CzM0Y
 
 Share my channel";
